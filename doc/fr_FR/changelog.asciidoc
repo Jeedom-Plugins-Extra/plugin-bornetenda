@@ -1,0 +1,8 @@
+[horizontal]
+1.02:: Modification de l'extension du logo.
++
+Compatibilité Imperihome
++
+Retrait de la suppression des équipements lors de la désactivation du plugin
+
+1.01:: Initialisation du plugin
