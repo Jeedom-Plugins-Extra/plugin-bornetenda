@@ -54,8 +54,50 @@ class bornetenda extends eqLogic {
 			$reboot->setLogicalId('reboot');
 			$reboot->setEventOnly(1);
 			$reboot->setIsVisible(0);
+			$reboot->setDisplay('generic_type','GENERIC_ACTION');
 			$reboot->save();
 		}
+		else
+		{
+			if ( $reboot->getDisplay('generic_type') == "" )
+			{
+				$reboot->setDisplay('generic_type','GENERIC_ACTION');
+				$reboot->save();
+			}
+		}
+		$cmd = $this->getCmd(null, 'status');
+		if ( is_object($cmd) ) {
+			if ( $cmd->getDisplay('generic_type') == "" )
+			{
+				$cmd->setDisplay('generic_type','GENERIC_INFO');
+				$cmd->save();
+			}
+		}
+		$cmd = $this->getCmd(null, 'wifistatus');
+		if ( is_object($cmd) ) {
+			if ( $cmd->getDisplay('generic_type') == "" )
+			{
+				$cmd->setDisplay('generic_type','GENERIC_INFO');
+				$cmd->save();
+			}
+		}
+		$cmd = $this->getCmd(null, 'wifi_off');
+		if ( is_object($cmd) ) {
+			if ( $cmd->getDisplay('generic_type') == "" )
+			{
+				$cmd->setDisplay('generic_type','GENERIC_ACTION');
+				$cmd->save();
+			}
+		}
+		$cmd = $this->getCmd(null, 'wifi_on');
+		if ( is_object($cmd) ) {
+			if ( $cmd->getDisplay('generic_type') == "" )
+			{
+				$cmd->setDisplay('generic_type','GENERIC_ACTION');
+				$cmd->save();
+			}
+		}
+
 		if ( $this->getIsEnable() )
 		{
 			log::add('bornetenda','debug','get '.preg_replace("/:[^:]*@/", ":XXXX@", $this->getUrl()). 'system_status.asp');
@@ -93,6 +135,7 @@ class bornetenda extends eqLogic {
 			$wifi_off->setSubType('other');
 			$wifi_off->setLogicalId('wifi_off');
 			$wifi_off->setEventOnly(1);
+			$wifi_off->setDisplay('generic_type','GENERIC_ACTION');
 			$wifi_off->save();
 		}
         $wifi_on = $this->getCmd(null, 'wifi_on');
@@ -104,6 +147,7 @@ class bornetenda extends eqLogic {
 			$wifi_on->setSubType('other');
 			$wifi_on->setLogicalId('wifi_on');
 			$wifi_on->setEventOnly(1);
+			$wifi_on->setDisplay('generic_type','GENERIC_ACTION');
 			$wifi_on->save();
 		}
         $reboot = $this->getCmd(null, 'reboot');
@@ -116,6 +160,7 @@ class bornetenda extends eqLogic {
 			$reboot->setLogicalId('reboot');
 			$reboot->setEventOnly(1);
 			$reboot->setIsVisible(0);
+			$reboot->setDisplay('generic_type','GENERIC_ACTION');
 			$reboot->save();
 		}
 		$wifistatus = $this->getCmd(null, 'wifistatus');
@@ -129,6 +174,7 @@ class bornetenda extends eqLogic {
 			$wifistatus->setSubType('binary');
 			$wifistatus->setIsHistorized(0);
 			$wifistatus->setEventOnly(1);
+			$wifistatus->setDisplay('generic_type','GENERIC_INFO');
 			$wifistatus->save();		
 		}
 	}
@@ -147,7 +193,7 @@ class bornetenda extends eqLogic {
 			$statuscmd = $this->getCmd(null, 'status');
 			$url = $this->getUrl();
 			log::add('bornetenda','debug','get '.preg_replace("/:[^:]*@/", ":XXXX@", $url).'wireless_basic.asp');
-			$info = file_get_contents($this->getUrl(). 'wireless_basic.asp');
+			$info = @file_get_contents($this->getUrl(). 'wireless_basic.asp');
 			if ( $info === false ) {
 				throw new Exception(__('La borne tenda ne repond pas.',__FILE__));
 				if ($statuscmd->execCmd() != 0) {
@@ -216,7 +262,11 @@ class bornetendaCmd extends cmd
 		else
 			return false;
 		log::add('bornetenda','debug','get '.preg_replace("/:[^:]*@/", ":XXXX@", $url));
-		$result = file_get_contents($url);
+		$result = @file_get_contents($url);
+		if ( $result === false )
+		{
+			return false;
+		}
 		$eqLogic->scan();
         return false;
     }
