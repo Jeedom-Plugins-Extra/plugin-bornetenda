@@ -1,39 +1,39 @@
 {
     "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
-        "Ajouter une borne tenda": "Ajouter une borne tenda",
-        "Mes bornes tenda": "Mes bornes tenda",
-        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer",
-        "Général": "Général",
-        "Nom de la borne borne tenda": "Nom de la borne borne tenda",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Catégorie": "Catégorie",
-        "Activer": "Activer",
-        "Accéder à la carte": "Accéder à la carte",
+        "Ajouter une borne tenda": "Add a Terminal tenda",
+        "Mes bornes tenda": "My tenda terminals",
+        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "You have not yet tenda terminal, click Add equipment to start",
+        "Général": "General",
+        "Nom de la borne borne tenda": "Name of the tenda Terminal",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Catégorie": "Category",
+        "Activer": "Enable",
+        "Accéder à la carte": "Go to the map",
         "Visible": "Visible",
-        "IP de la borne tenda": "IP de la borne tenda",
-        "Compte de la borne tenda": "Compte de la borne tenda",
-        "Password de la borne tenda": "Password de la borne tenda",
-        "Indicateurs": "Indicateurs",
-        "Nom": "Nom",
-        "Sous-Type": "Sous-Type",
-        "Valeur": "Valeur",
-        "Unité": "Unité",
-        "Paramètres": "Paramètres",
-        "Supprimer": "Supprimer",
-        "Sauvegarder": "Sauvegarder"
+        "IP de la borne tenda": "Tenda Terminal IP",
+        "Compte de la borne tenda": "Account of the tenda Terminal",
+        "Password de la borne tenda": "Password of the terminal tenda",
+        "Indicateurs": "Indicators",
+        "Nom": "Name",
+        "Sous-Type": "Subtype",
+        "Valeur": "Value",
+        "Unité": "Unit",
+        "Paramètres": "Settings",
+        "Supprimer": "Delete",
+        "Sauvegarder": "Save"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
-        "Nom": "Nom",
-        "Calcul": "Calcul",
+        "Nom": "Name",
+        "Calcul": "Calculation",
         "Min": "Min",
         "Max": "Max",
-        "Historiser": "Historiser",
-        "Afficher": "Afficher",
-        "Tester": "Tester",
-        "Accèder à l'interface de la borne": "Accèder à l'interface de la borne"
+        "Historiser": "Logging",
+        "Afficher": "Show",
+        "Tester": "Test",
+        "Accèder à l'interface de la borne": "Access user interface of the terminal"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "La borne tenda ne repond pas ou le compte est incorrect."
+        "La borne tenda ne repond pas ou le compte est incorrect.": "The tenda terminal does not respond or the account is incorrect."
     }
 }
