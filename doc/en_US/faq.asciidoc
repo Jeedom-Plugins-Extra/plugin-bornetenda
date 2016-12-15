@@ -1,7 +1,7 @@
 [panel,primary]
 .A quelle fréquence les données sont-elles mise à jour ?
 --
-Les données sont rafraichi toutes les minutes.
+The data is refreshed every minute.
 --
 
 .Ce plugin ne génère pas de log, comment en avoir ?

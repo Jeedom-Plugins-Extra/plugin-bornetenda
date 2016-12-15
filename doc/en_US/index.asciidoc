@@ -3,7 +3,7 @@ Ce plugin permet de gérer les bornes tenda W301A.
 
 Il permet d'activer le wifi et de le désactiver.
 
-== Installation/Paramétrage ==
+== Installation / Setup ==
 Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer sur '''Plugins / Communication / borne tenda W301A'''
 
 Puis cliquer sur le bouton en haut à gauche "'''Ajouter un équipement'''"
