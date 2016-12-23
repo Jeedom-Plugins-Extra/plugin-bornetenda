@@ -1,5 +1,5 @@
 [panel,primary]
-.A quelle fréquence les données sont-elles mise à jour ?
+. How often are the data updated?
 --
 The data is refreshed every minute.
 --

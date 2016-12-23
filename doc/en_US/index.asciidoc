@@ -1,5 +1,5 @@
 == Introduction ==
-Ce plugin permet de gérer les bornes tenda W301A.
+This plugin is used to manage tenda W301A.
 
 Il permet d'activer le wifi et de le désactiver.
 
