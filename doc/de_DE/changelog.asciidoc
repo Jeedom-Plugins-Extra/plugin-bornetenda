@@ -1,7 +1,7 @@
 [horizontal]
-1.03:: Prise en compte de l'application mobile
+1.03:: Einbeziehung der mobilen App
 
-1.02:: Modification de l'extension du logo.
+1.02:: Logo Größe geändert
 +
 Imperihome Kompatibilität
 +
