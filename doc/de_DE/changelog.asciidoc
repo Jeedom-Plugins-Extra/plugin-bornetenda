@@ -1,10 +1,15 @@
 [horizontal]
-1.03:: Einbeziehung der mobilen App
+WARNING: Detail complet des mises à jour sur https://github.com/guenneguezt/plugin-bornetenda/commits/master[Historique Commit]
 
-1.02:: Logo Größe geändert
-+
-Imperihome Kompatibilität
-+
-Retrait de la suppression des équipements lors de la désactivation du plugin
+Liste des évolutions majeures de la version courante :
 
-1.01:: Initialisierung des Plugins.
+- Modification pour compatibilité Jeedom V3
+- Plus de suivi de version
+
+Anciennes évolutions :
+
+- Prise en compte de l'application mobile
+- Modification de l'extension du logo.
+- Compatibilité Imperihome
+- Retrait de la suppression des équipements lors de la désactivation du plugin
+- Initialisation du plugin
