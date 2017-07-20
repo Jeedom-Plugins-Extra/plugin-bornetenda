@@ -21,7 +21,11 @@
         "Unité": "Unité",
         "Paramètres": "Paramètres",
         "Supprimer": "Supprimer",
-        "Sauvegarder": "Sauvegarder"
+        "Sauvegarder": "Sauvegarder",
+        "Ajouter une borne": "Ajouter une borne",
+        "Rechercher": "Rechercher",
+        "Gestion": "Gestion",
+        "Configuration": "Configuration"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
         "Nom": "Nom",
@@ -34,6 +38,11 @@
         "Accèder à l'interface de la borne": "Accèder à l'interface de la borne"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "La borne tenda ne repond pas ou le compte est incorrect."
+        "La borne tenda ne repond pas ou le compte est incorrect.": "La borne tenda ne repond pas ou le compte est incorrect.",
+        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+    },
+    "plugins\/bornetenda\/plugin_info\/configuration.php": {
+        "Faire un don au développeur": "Faire un don au développeur",
+        "Faire un don via Paypal au développeur": "Faire un don via Paypal au développeur"
     }
 }

@@ -21,7 +21,11 @@
         "Unité": "Einheit",
         "Paramètres": "Parameter",
         "Supprimer": "Löschen",
-        "Sauvegarder": "Speichern"
+        "Sauvegarder": "Speichern",
+        "Ajouter une borne": "Ajouter une borne",
+        "Rechercher": "Rechercher",
+        "Gestion": "Gestion",
+        "Configuration": "Configuration"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
         "Nom": "Name",
@@ -34,6 +38,11 @@
         "Accèder à l'interface de la borne": "Zugriff auf Geräte-Schnittstelle"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda Gerät reagiert nicht oder das Konto ist nicht korrekt."
+        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda Gerät reagiert nicht oder das Konto ist nicht korrekt.",
+        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+    },
+    "plugins\/bornetenda\/plugin_info\/configuration.php": {
+        "Faire un don au développeur": "Faire un don au développeur",
+        "Faire un don via Paypal au développeur": "Faire un don via Paypal au développeur"
     }
 }
