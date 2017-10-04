@@ -40,9 +40,5 @@
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
         "La borne tenda ne repond pas ou le compte est incorrect.": "El terminal tenda no responde o la cuenta es incorrecta.",
         "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
-    },
-    "plugins\/bornetenda\/plugin_info\/configuration.php": {
-        "Faire un don au développeur": "Faire un don au développeur",
-        "Faire un don via Paypal au développeur": "Faire un don via Paypal au développeur"
     }
 }
