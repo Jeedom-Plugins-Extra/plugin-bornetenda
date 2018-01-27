@@ -22,10 +22,10 @@
         "Paramètres": "Parameter",
         "Supprimer": "Löschen",
         "Sauvegarder": "Speichern",
-        "Ajouter une borne": "Ajouter une borne",
-        "Rechercher": "Rechercher",
-        "Gestion": "Gestion",
-        "Configuration": "Configuration"
+        "Ajouter une borne": " Einen Terminal hinzufügen",
+        "Rechercher": "Suchen",
+        "Gestion": "Verwaltung",
+        "Configuration": "Konfiguration"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
         "Nom": "Name",
@@ -38,7 +38,7 @@
         "Accèder à l'interface de la borne": "Zugriff auf Geräte-Schnittstelle"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda Gerät reagiert nicht oder das Konto ist nicht korrekt.",
-        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda Terminal reagiert nicht oder das Konto ist nicht korrekt.",
+        "La borne tenda ne repond pas.": "Tenda Terminal antwortet nicht."
     }
 }
