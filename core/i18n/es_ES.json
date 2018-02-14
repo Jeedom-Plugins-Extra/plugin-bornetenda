@@ -22,10 +22,10 @@
         "Paramètres": "Parámetros",
         "Supprimer": "Borrar",
         "Sauvegarder": "Salvar",
-        "Ajouter une borne": "Ajouter une borne",
-        "Rechercher": "Rechercher",
-        "Gestion": "Gestion",
-        "Configuration": "Configuration"
+        "Ajouter une borne": "Agregar un terminal",
+        "Rechercher": "Buscar",
+        "Gestion": "Gestión",
+        "Configuration": "Configuración"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
         "Nom": "Nombre",
@@ -39,6 +39,6 @@
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
         "La borne tenda ne repond pas ou le compte est incorrect.": "El terminal tenda no responde o la cuenta es incorrecta.",
-        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+        "La borne tenda ne repond pas.": "El terminal tenda no responde."
     }
 }
