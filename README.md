@@ -33,13 +33,15 @@ Lien vers le chat [ici](https://gitter.im/Jeedom-Plugins-Extra/plugin-bornetenda
 ### Fonctions disponibles
 
 Infos :
-* ?????
+* Status de la borne
+* Status du Wifi
 
 Actions :
-* ?????
+* Activer le Wifi
+* Désactiver le Wifi
 
 Scénarios possible (ceux que j'ai chez moi) :
-* ?????
+* Activation/désactivation du Wifi sur plage horaire
 
 <img src="https://github.com/Jeedom-Plugins-Extra/Jeedom-Plugins-Extra/blob/master/images/Jeedom-Plugins-Extra.png" align="right" height="100" width="95">
 
