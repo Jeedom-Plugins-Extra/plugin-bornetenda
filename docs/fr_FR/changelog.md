@@ -4,13 +4,15 @@ Change log
 > **Warning**
 >
 > Detail complet des mises à jour sur [Historique
-> Commit](https://github.com/guenneguezt/plugin-bornetenda/commits/master)
+> Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)
 
 Liste des évolutions majeures de la version courante :
 
--   Suppression du lien Paypal pour être conforme avec Jeedom V3.1
+-   Mise aux normes de gestion équipement
 
 Anciennes évolutions :
+
+-   Suppression du lien Paypal pour être conforme avec Jeedom V3.1
 
 -   Modification pour compatibilité Jeedom V3
 

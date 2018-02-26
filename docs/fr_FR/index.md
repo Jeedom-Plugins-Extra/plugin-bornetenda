@@ -40,8 +40,7 @@ Les données sont rafraichi toutes les minutes.
 
 Ce plugin ne génère pas de log, comment en avoir ?
 --------------------------------------------------
-Il est nécessaire au préalable d’activer temporairement le debug de
-Jeedom (menu Configuration ⇒ Configuration des logs & messages ⇒ Activer + Niveau de log = Debug).
+Il est nécessaire au préalable d’activer temporairement le debug de Jeedom (menu Configuration ⇒ Configuration des logs & messages ⇒ Activer + Niveau de log = Debug).
 
 Pourquoi le plugin est gratuit ?
 --------------------------------
