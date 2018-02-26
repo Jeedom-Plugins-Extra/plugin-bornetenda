@@ -39,17 +39,17 @@ $eqLogics = eqLogic::byType('bornetenda');
 </div>
         <legend>{{Mes bornes tenda}}
         </legend>
-		<div class="eqLogicThumbnailContainer">
-			<div class="cursor eqLogicAction" data-action="add" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
-				<center>
-				<i class="fa fa-plus-circle" style="font-size : 7em;color:#94ca02;"></i>
-				</center>
-				<span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02"><center>Ajouter</center></span>
-			</div>
-			<?php
-			if (count($eqLogics) == 0) {
-				echo "<br/><br/><br/><center><span style='color:#767676;font-size:1.2em;font-weight: bold;'>{{Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer}}</span></center>";
-			} else {
+        <div class="eqLogicThumbnailContainer">
+            <div class="cursor eqLogicAction" data-action="add" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
+                <center>
+                <i class="fa fa-plus-circle" style="font-size : 7em;color:#94ca02;"></i>
+                </center>
+                <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02"><center>Ajouter</center></span>
+            </div>
+            <?php
+            if (count($eqLogics) == 0) {
+                echo "<br/><br/><br/><center><span style='color:#767676;font-size:1.2em;font-weight: bold;'>{{Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer}}</span></center>";
+            } else {
                 foreach ($eqLogics as $eqLogic) {
                     echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >';
                     echo "<center>";
@@ -58,9 +58,9 @@ $eqLogics = eqLogic::byType('bornetenda');
                     echo '<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;"><center>' . $eqLogic->getHumanName(true, true) . '</center></span>';
                     echo '</div>';
                 }
-			}
-			?>
-		</div>
+            }
+            ?>
+        </div>
     </div>
 
     <div class="col-lg-10 col-md-9 col-sm-8 eqLogic" style="border-left: solid 1px #EEE; padding-left: 25px;display: none;">
@@ -68,7 +68,7 @@ $eqLogics = eqLogic::byType('bornetenda');
             <fieldset>
                 <legend>
                    <i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}
-				   <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i>
+                   <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i>
                 </legend>
                 <div class="form-group">
                     <label class="col-lg-2 control-label">{{Nom de la borne borne tenda}}</label>
@@ -104,11 +104,11 @@ $eqLogics = eqLogic::byType('bornetenda');
                 </div>
                 <div class="form-group">
                   <label class="col-sm-2 control-label" ></label>
-					<div class="col-sm-10">
-					<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-label-text="{{Activer}}" data-l1key="isEnable" checked/>Activer</label>
-					<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-label-text="{{Visible}}" data-l1key="isVisible" checked/>Visible</label>
-					</div>
-					<a class="btn btn-default" id="bt_goCarte" title='{{Accéder à la carte}}'><i class="fa fa-cogs"></i></a>
+                    <div class="col-sm-10">
+                    <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-label-text="{{Activer}}" data-l1key="isEnable" checked/>Activer</label>
+                    <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-label-text="{{Visible}}" data-l1key="isVisible" checked/>Visible</label>
+                    </div>
+                    <a class="btn btn-default" id="bt_goCarte" title='{{Accéder à la carte}}'><i class="fa fa-cogs"></i></a>
                 </div>
                 <div class="form-group">
                     <label class="col-lg-2 control-label">{{IP de la borne tenda}}</label>
@@ -128,7 +128,7 @@ $eqLogics = eqLogic::byType('bornetenda');
                         <input type="password" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="password"/>
                     </div>
                 </div>
-            </fieldset> 
+            </fieldset>
         </form>
         <legend>{{Indicateurs}}</legend>
         <table id="table_cmd" class="table table-bordered table-condensed">
@@ -159,4 +159,3 @@ $eqLogics = eqLogic::byType('bornetenda');
 <?php
 include_file('desktop', 'bornetenda', 'js', 'bornetenda');
 include_file('core', 'plugin.template', 'js');
-?>
