@@ -20,7 +20,7 @@ require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
 function bornetenda_install() {
     $cron = cron::byClassAndFunction('bornetenda', 'pull');
-	if ( ! is_object($cron)) {
+    if ( ! is_object($cron)) {
         $cron = new cron();
         $cron->setClass('bornetenda');
         $cron->setFunction('pull');
@@ -28,12 +28,12 @@ function bornetenda_install() {
         $cron->setDeamon(0);
         $cron->setSchedule('* * * * *');
         $cron->save();
-	}
+    }
 }
 
 function bornetenda_update() {
     $cron = cron::byClassAndFunction('bornetenda', 'pull');
-	if ( ! is_object($cron)) {
+    if ( ! is_object($cron)) {
         $cron = new cron();
         $cron->setClass('bornetenda');
         $cron->setFunction('pull');
@@ -41,16 +41,15 @@ function bornetenda_update() {
         $cron->setDeamon(0);
         $cron->setSchedule('* * * * *');
         $cron->save();
-	}
-	foreach (eqLogic::byType('bornetenda') as $eqLogic) {
-		$eqLogic->save();
-	}
+    }
+    foreach (eqLogic::byType('bornetenda') as $eqLogic) {
+        $eqLogic->save();
+    }
 }
 
 function bornetenda_remove() {
-	$cron = cron::byClassAndFunction('bornetenda', 'pull');
-	if (is_object($cron)) {
-		$cron->remove();
-	}
+    $cron = cron::byClassAndFunction('bornetenda', 'pull');
+    if (is_object($cron)) {
+        $cron->remove();
+    }
 }
-?>
