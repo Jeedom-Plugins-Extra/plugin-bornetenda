@@ -12,12 +12,12 @@ Retrouvez le sur le Market Jeedom [ici](https://www.jeedom.com/market/index.php?
 
 ### Documentation
 
-Vous trouverez la documentation [ici](https://github.com/Jeedom-Plugins-Extra/bornetenda/blob/stable/docs/fr_FR/index.md)
+Vous trouverez la documentation [ici](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
 
 
 ### Prévisualisation
 
-<img src="docs/images/screenshot1.png" align="center">
+<img src="docs/images/bornetenda_screenshot1.png" align="center">
 
 
 ### Forum
