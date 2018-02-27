@@ -17,7 +17,7 @@ Vous trouverez la documentation [ici](https://github.com/Jeedom-Plugins-Extra/pl
 
 ### Prévisualisation
 
-<img src="docs/images/bornetenda_screenshot1.png" align="center">
+<img src="docs/images/bornetenda_screenshot1.jpg" align="center">
 
 
 ### Forum
