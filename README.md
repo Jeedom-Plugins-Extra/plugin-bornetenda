@@ -12,15 +12,14 @@ Plugin permettant de gérer les Bornes Tenda W301A.
 
 ### Documentation
 
-Vous trouverez la documentation [ici]
+Vous trouverez la documentation [ici](https://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
 
-(https://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](docs/fr_FR/presentation.md)
 [présentation](docs/fr_FR/presentation.md) [configuration](docs/fr_FR/configuration.md) [faq](docs/fr_FR/faq.md) [changelog](docs/fr_FR/changelog.md)
 
 ### Prévisualisation
 
-<img src="https://github.com/NextDom/plugin-bornetenda/row/master/docs/images/bornetenda_screenshot1.jpg" align="center">
+<img src="https://raw.githubusercontent.com/NextDom/plugin-bornetenda/master/docs/images/bornetenda_screenshot1.jpg" align="center">
 
 ### Fonctions disponibles
 
