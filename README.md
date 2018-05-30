@@ -15,7 +15,14 @@ Plugin permettant de gérer les Bornes Tenda W301A.
 Vous trouverez la documentation [ici](https://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
 
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](docs/fr_FR/presentation.md)
-[présentation](docs/fr_FR/presentation.md) [configuration](docs/fr_FR/configuration.md) [faq](docs/fr_FR/faq.md) [changelog](docs/fr_FR/changelog.md)
+
+* [présentation](docs/fr_FR/presentation.md)
+
+* [configuration](docs/fr_FR/configuration.md)
+
+* [faq](docs/fr_FR/faq.md)
+
+* [changelog](docs/fr_FR/changelog.md)
 
 ### Prévisualisation
 
@@ -24,14 +31,19 @@ Vous trouverez la documentation [ici](https://github.com/NextDom/plugin-borneten
 ### Fonctions disponibles
 
 Infos :
+
 * Status de la borne
+
 * Status du Wifi
 
 Actions :
+
 * Activer le Wifi
+
 * Désactiver le Wifi
 
 Scénarios possible (ceux que j'ai chez moi) :
+
 * Activation/désactivation du Wifi sur plage horaire
 
 <img src="https://raw.githubusercontent.com/NextDom/NextDom/master/images/logoblue.png" align="right" height="100" width="95">
