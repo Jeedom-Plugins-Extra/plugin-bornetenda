@@ -1,6 +1,6 @@
 # Plugin Borne Tenda W301A pour Jeedom
 
-<img src="https://github.com/NextDom/plugin-bornetenda/blob/master/plugin_info/bornetenda_icon.png" align="right" height="160" width="150">
+<img src="https://github.com/NextDom/plugin-bornetenda/raw/master/plugin_info/bornetenda_icon.png" align="right" height="160" width="150">
 
 Plugin permettant de gérer les Bornes Tenda W301A.
 
