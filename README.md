@@ -1,6 +1,6 @@
 # Plugin Borne Tenda W301A pour Jeedom
 
-<img src="https://github.com/NextDom/plugin-bornetenda/row/master/plugin_info/bornetenda_icon.png" align="right" height="160" width="150">
+<img src="https://github.com/NextDom/plugin-bornetenda/raw/master/plugin_info/bornetenda_icon.png" align="right" height="160" width="150">
 
 [![license](https://img.shields.io/github/license/NextDom/plugin-bornetenda.svg)](./LICENSE) [![GitHub contributors](https://img.shields.io/github/contributors/NextDom/plugin-bornetenda.svg)](../../graphs/contributors) [![GitHub release](https://img.shields.io/github/release/NextDom/plugin-bornetenda.svg)](../../releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/TGUENNEGUEZ/) [![Waffle.io - Columns and their card count](https://badge.waffle.io/NextDom/plugin-bornetenda.svg?columns=all)](https://waffle.io/NextDom/plugin-bornetenda)
 
