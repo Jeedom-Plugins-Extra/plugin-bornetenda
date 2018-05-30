@@ -12,7 +12,9 @@ Plugin permettant de gérer les Bornes Tenda W301A.
 
 ### Documentation
 
-Vous trouverez la documentation [ici](https://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
+Vous trouverez la documentation [ici]
+
+(https://github.com/NextDom/plugin-bornetenda/blob/master/docs/fr_FR/index.md)
 [![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](docs/fr_FR/presentation.md)
 [présentation](docs/fr_FR/presentation.md) [configuration](docs/fr_FR/configuration.md) [faq](docs/fr_FR/faq.md) [changelog](docs/fr_FR/changelog.md)
 
@@ -33,7 +35,7 @@ Actions :
 Scénarios possible (ceux que j'ai chez moi) :
 * Activation/désactivation du Wifi sur plage horaire
 
-<img src="https://github.com/NextDom/NextDom/row/master/images/logoblue.png" align="right" height="100" width="95">
+<img src="https://raw.githubusercontent.com/NextDom/NextDom/master/images/logoblue.png" align="right" height="100" width="95">
 
 ## <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC" src="https://creativecommons.org/images/deed/cc_blue_x2.png" height="24px" width="24px"><img alt="attribution" src="https://creativecommons.org/images/deed/attribution_icon_blue_x2.png" height="24px" width="24px"><img alt="SA" src="https://creativecommons.org/images/deed/sa_blue_x2.png" height="24px" width="24px"> Team NextDom </a> 👍
 ### Retour à l'accueil du [Wiki](https://github.com/NextDom/NextDom/wiki) ou de la [Team](https://github.com/NextDom)
